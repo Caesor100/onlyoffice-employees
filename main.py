@@ -27,7 +27,7 @@ class OnlyofficeEmployees:
             if x == names[y].get_attribute('innerHTML'):
                 break
 
-        # Создаем список [name: profession]
+        # Создаем словарь [name: profession]
         workers = dict()
 
         for i in range(y):
